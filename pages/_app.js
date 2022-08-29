@@ -26,9 +26,9 @@ const App = (props) => {
     <ChakraProvider theme={theme}>
       <Head>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="description" content="Digital Insurance System" />
+        <meta name="description" content="Boilareplate" />
         <meta name="keywords" content="insurance" />
-        <title>Waada.Insure</title>
+        <title>BBN</title>
       </Head>
       <ViewPort {...props} />
     </ChakraProvider>

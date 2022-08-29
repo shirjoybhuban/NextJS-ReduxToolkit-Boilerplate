@@ -1,7 +1,7 @@
 {
-  "name": "waadainsure",
+  "name": "nextjs-reduxtoolkit-chkraui",
   "version": "1.0",
-  "description": "Digital Insurance System",
+  "description": "NextJS-ReduxToolkit-ChkraUI",
   "license": "Beatnik Technology",
   "private": true,
   "scripts": {
