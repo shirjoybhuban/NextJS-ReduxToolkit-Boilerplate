@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addUser } from '../store/slices/usersSlice';
 import { wrapper } from '../store/store';
-import { increment } from '../store/slices/counterSlice';
 import Link from 'next/link';
 
 const ReduxServersideprop = () => {
@@ -33,7 +32,7 @@ const ReduxServersideprop = () => {
       </div>
       {/* <AddCount /> */}
       <Link href="/">
-        <a>go to Home</a>
+        go to Home
       </Link>
       <br />
     </div>
