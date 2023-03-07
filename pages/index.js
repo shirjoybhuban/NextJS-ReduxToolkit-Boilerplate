@@ -14,7 +14,7 @@ export default function Home() {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Waada Homepage</h2>
         <Link href="/reduxServersideprop">
-          <a>go to Redux</a>
+          go to Redux
         </Link>
       </section>
     </>
