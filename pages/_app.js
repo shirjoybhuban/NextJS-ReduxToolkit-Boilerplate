@@ -22,10 +22,9 @@ const ViewPort = ({ Component, pageProps }) => {
 };
 
 const App = (props) => {
-  const { store } = wrapper.useWrappedStore(props);
 
   return (
-    <ChakraProvider store={store} theme={theme}>
+    <ChakraProvider theme={theme}>
       <Head>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Boilareplate" />
@@ -36,4 +35,4 @@ const App = (props) => {
     </ChakraProvider>
   );
 };
-export default App;
+export default wrapper.withRedux(App);
